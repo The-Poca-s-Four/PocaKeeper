@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header.jsx";
+import Body from "./Body.jsx";
 import Footer from "./Footer.jsx";
 import { Layout, ConfigProvider } from "antd";
 import { useState } from "react";
@@ -19,6 +20,7 @@ function AppLayout() {
       }}
     >
       <Header collapsed={collapsed} />
+      <Body collapsed />
       <Layout className="h-screen">
         <Content className="overflow-y-hidden">
           {/* Main content goes here */}
