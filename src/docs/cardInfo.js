@@ -76,6 +76,43 @@ const cardInfo = [
         icon: "🎯",
         title: "50%",
         content: "Retention Rate"
-    }
+    },
+    {
+        id: 14,
+        icon: "🎯",
+        title: "Student-first",
+        content: "Built by students, for students",
+    },
+    {
+        id: 15,
+        icon: "💡",
+        title: "Innovation",
+        content: "Creative solutions to real problems",
+    },
+    {
+        id: 16,
+        icon: "🤝",
+        title: "Collaboration",
+        content: "Teamwork makes the dream work",
+    },
+    {
+        id: 17,
+        icon: "💡",
+        title: "Otober 2025",
+        content: "Ideation & Canvas",
+    },
+    {
+        id: 18,
+        icon: "💡",
+        title: "November 2025",
+        content: "Ideation & Canvas",
+    },
+    {
+        id: 19,
+        icon: "💡",
+        title: "December 2025",
+        content: "Ideation & Canvas",
+    },
+
 ];
 export default cardInfo;
