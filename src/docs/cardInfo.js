@@ -1,19 +1,19 @@
 const cardInfo = [
     {
         id: 1,
-        icon: "💡",
+        icon: "⚠️",
         title: "Problem",
         content: "Students struggle with personal finance and tracking spending. With unstable incomes from part-time jobs and scattered expenses, it's hard to maintain financial control and build healthy saving habits."
     },
     {
         id: 2,
-        icon: "🎯",
+        icon: "✅",
         title: "Solution",
         content: "FinBuddy classifies expenses automatically, sets smart spending limits, and builds saving habits through Zero-Based Budgeting. Track every penny and always know how much you can safely spend."
     },
     {
         id: 3,
-        icon: "🎯",
+        icon: "💰",
         title: "Control Your Spending Easily",
         content: "Simple interface to track every transaction and know exactly where your money goes."
     },
@@ -31,19 +31,19 @@ const cardInfo = [
     },
     {
         id: 6,
-        icon: "💸",
+        icon: "⚡",
         title: "Quick Add Transactions",
         content: "Add expenses in seconds with smart categorization and instant updates to your budget."
     },
     {
         id: 7,
-        icon: "👁",
+        icon: "�",
         title: "Safe-to-Spend Overview",
         content: "See at a glance how much you can spend without breaking your budget limits."
     },
     {
         id: 8,
-        icon: "⚠",
+        icon: "💼",
         title: "Unallocated Funds Display",
         content: "Track money that hasn't been assigned to any category yet and allocate it wisely."
     },
@@ -55,31 +55,31 @@ const cardInfo = [
     },
     {
         id: 10,
-        icon: "🎯",
+        icon: "📱",
         title: "50",
         content: "App Downloads"
     },
     {
         id: 11,
-        icon: "🎯",
-        title: "50",
+        icon: "👥",
+        title: "500",
         content: "Accounts Registered"
     },
     {
         id: 12,
-        icon: "🎯",
+        icon: "🔥",
         title: "20",
         content: "Daily Active Users"
     },
     {
         id: 13,
-        icon: "🎯",
+        icon: "📊",
         title: "50%",
         content: "Retention Rate"
     },
     {
         id: 14,
-        icon: "🎯",
+        icon: "🎓",
         title: "Student-first",
         content: "Built by students, for students",
     },
@@ -97,21 +97,39 @@ const cardInfo = [
     },
     {
         id: 17,
-        icon: "💡",
-        title: "Otober 2025",
+        icon: "📅",
+        title: "October 2025",
         content: "Ideation & Canvas",
     },
     {
         id: 18,
-        icon: "💡",
+        icon: "🚀",
         title: "November 2025",
-        content: "Ideation & Canvas",
+        content: "Development & Testing",
     },
     {
         id: 19,
-        icon: "💡",
+        icon: "🎉",
         title: "December 2025",
-        content: "Ideation & Canvas",
+        content: "Launch & Marketing",
+    },
+    {
+        id: 20,
+        icon: "📈",
+        title: "60%",
+        content: "User Engagement Rate",
+    },
+    {
+        id: 21,
+        icon: "💎",
+        title: "67%",
+        content: "Feature Adoption Rate",
+    },
+    {
+        id: 22,
+        icon: "⭐",
+        title: "4.5/5",
+        content: "User Satisfaction Score",
     },
 
 ];

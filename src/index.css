@@ -72,7 +72,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 1.666;
-  background: #c0d2d4;
+  background: #1a1a1a;
   color: #555;
 }
 
@@ -91,21 +91,22 @@ h1 span {
 }
 
 .dictionary {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 4rem auto;
-  max-width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin: 2rem auto;
+  max-width: 100%;
+  padding: 0;
 }
 
-.dictionary > .term {
+.dictionary > .term, .term {
   text-align: center;
-  max-width: 16rem;
-  margin-bottom: 3rem;
+  max-width: none;
+  margin-bottom: 0;
   padding: 2rem;
   border-radius: 3px;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  background-color: #1f2937;
   transition: all 100ms ease-in-out;
 }
 

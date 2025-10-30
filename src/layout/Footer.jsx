@@ -8,11 +8,11 @@ function Footer() {
         textAlign: "center",
         width: "100%",
         padding: "1rem 0",
-        background: "#ffffff",
-        borderTop: "1px solid rgba(0,0,0,0.05)",
+        background: "#161b22",
+        borderTop: "1px solid rgba(255, 255, 255, 0.18)",
       }}
     >
-      <div style={{ color: "#280404ff" }}>
+      <div style={{ color: "#c5f4f856" }}>
         <p> Built with ❤️ by ZeroBase</p>
         <p>Copyright © {year} ZeroBase. All rights reserved.</p>
         <p>Version 1.0.0</p>
