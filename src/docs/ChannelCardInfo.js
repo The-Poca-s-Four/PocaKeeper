@@ -24,90 +24,89 @@ const ChannelCardInfo = [
     {
         id: 2,
         iconBig: "💰",
-        title: "Financial Benefits",
+        title: "Target Customers",
         contents: [
             {
                 iconSmall: "✓",
-                subtitle: "Track Every Expense",
-                description: "Monitor all your spending in real-time with automatic categorization"
+                subtitle: "College Students",
+                description: "Students managing limited income from part-time jobs, family support, or scholarships."
             },
             {
                 iconSmall: "✓",
-                subtitle: "Smart Savings Goals",
-                description: "Set achievable targets and watch your money grow semester by semester"
+                subtitle: "Young Professionals",
+                description: "Recent graduates starting their careers and looking to build healthy financial habits."
             },
             {
                 iconSmall: "✓",
-                subtitle: "Budget Alerts",
-                description: "Get notified before you overspend in any category"
+                subtitle: "Those New to Budgeting",
+                description: "Assist individuals unfamiliar with budgeting concepts to get started."
             }
         ]
+    },
+    {
+        id: 3,
+        iconBig: "🔗",
+        title: "Channels",
+        contents: [
+            {
+                iconSmall: "✓",
+                subtitle: "Social Media Marketing",
+                description: ""},
+            {
+                iconSmall: "✓",
+                subtitle: "University Clubs & Organizations",
+                description: ""},
+            {
+                iconSmall: "✓",
+                subtitle: "Google Play Store & App Store",
+                description: ""},
+            {
+                iconSmall: "✓",
+                subtitle: "Campus Event & Financial Workshop",
+                description: ""}
+        ]
+    },
+    {
+        id: 4,
+        iconBig: "🏗",
+        title: "Cost Structure",
+        contents: [
+            {
+                iconSmall: "✓",
+                subtitle: "Human Resources",
+                description: "Student Team (No Developement Cost)"},
+            {
+                iconSmall: "✓",
+                subtitle: "Cloud Hosting & Database",
+                description: "Firebase Free Tier"},
+            {
+                iconSmall: "✓",
+                subtitle: "Design Tools",
+                description: "Figma Free Plan"},
+            {
+                iconSmall: "✓",
+                subtitle: "Marketing",
+                description: "Organic Social Media & Campus Presence"}
+        ]
+    },
+    {
+        id: 5,
+        iconBig: "💲",
+        title: "Revenue Streams",
+        contents: [
+            {
+                iconSmall: "✓",
+                subtitle: "Demographic Targets",
+                description: "Student-Relevant Products & Services"},
+            {
+                iconSmall: "✓",
+                subtitle: "Premium Features",
+                description: "Advanced Analytics, Custom Categories & More"},
+            {
+                iconSmall: "✓",
+                subtitle: "Partnerships & Affiliates",
+                description: "Student Discounts & Offers Platform"}
+        ]
     }
-    // {
-    //     id: 3,
-    //     icon: "🎯",
-    //     title: "Control Your Spending Easily",
-    //     content: "Simple interface to track every transaction and know exactly where your money goes."
-    // },
-    // {
-    //     id: 4,
-    //     icon: "📈",
-    //     title: "Build Healthy Financial Habits",
-    //     content: "Develop sustainable saving habits with smart budgeting that adapts to your lifestyle."
-    // },
-    // {
-    //     id: 5,
-    //     icon: "🎓",
-    //     title: "Learn Budgeting from Day One",
-    //     content: "Start your financial journey from your first semester with student-friendly features."
-    // },
-    // {
-    //     id: 6,
-    //     icon: "💸",
-    //     title: "Quick Add Transactions",
-    //     content: "Add expenses in seconds with smart categorization and instant updates to your budget."
-    // },
-    // {
-    //     id: 7,
-    //     icon: "👁",
-    //     title: "Safe-to-Spend Overview",
-    //     content: "See at a glance how much you can spend without breaking your budget limits."
-    // },
-    // {
-    //     id: 8,
-    //     icon: "⚠",
-    //     title: "Unallocated Funds Display",
-    //     content: "Track money that hasn't been assigned to any category yet and allocate it wisely."
-    // },
-    // {
-    //     id: 9,
-    //     icon: "🎯",
-    //     title: "Zero-Based Allocation",
-    //     content: "Assign every dollar a purpose using the proven Zero-Based Budgeting methodology."
-    // },
-    // {
-    //     id: 10,
-    //     icon: "🎯",
-    //     title: "50",
-    //     content: "App Downloads"
-    // },
-    // {
-    //     id: 11,
-    //     icon: "🎯",
-    //     title: "50",
-    //     content: "Accounts Registered"
-    // },
-    // {
-    //     id: 12,
-    //     icon: "🎯",
-    //     title: "20",
-    //     content: "Daily Active Users"
-    // },
-    // {
-    //     id: 13,
-    //     icon: "🎯",
-    //     title: "50%",
-    //     content: "Retention Rate"
-    // }
 ];
 export default ChannelCardInfo;
