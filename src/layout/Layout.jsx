@@ -15,19 +15,25 @@ function AppLayout() {
     <ConfigProvider
       theme={{
         token: {
-          colorPrimary: "#F5BA13",
+          colorPrimary: "#333333",
+          colorBgBase: "#1a1a1a",
+          colorTextBase: "#ffffff",
+          colorBorder: "#333333",
+          colorBgContainer: "#2a2a2a",
         },
       }}
     >
-      <Header collapsed={collapsed} />
-      <Body collapsed />
-      <Layout className="h-screen">
-        <Content className="overflow-y-hidden">
-          {/* Main content goes here */}
-          <Outlet />
-        </Content>
-      </Layout>
-      <Footer collapsed />
+      <div style={{ backgroundColor: "#1a1a1a", minHeight: "100vh" }}>
+        <Header collapsed={collapsed} />
+        <Body collapsed />
+        <Layout style={{ backgroundColor: "#1a1a1a" }}>
+          <Content style={{ backgroundColor: "#1a1a1a" }}>
+            {/* Main content goes here */}
+            <Outlet />
+          </Content>
+        </Layout>
+        <Footer collapsed />
+      </div>
     </ConfigProvider>
   );
 }

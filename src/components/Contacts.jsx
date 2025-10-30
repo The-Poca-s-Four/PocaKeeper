@@ -15,10 +15,12 @@ const Contacts = ({ icon, title, description, buttonText, buttonLink }) => {
     <Card
       style={{
         width: 350,
-        backgroundColor: "#161b22",
+        backgroundColor: "#2a2a2a",
         color: "white",
-        border: "1px solid #30363d",
-        borderRadius: 8,
+        border: "1px solid #333333",
+        borderRadius: 12,
+        boxShadow: "0 4px 20px rgba(0, 0, 0, 0.3)",
+        transition: "all 200ms ease-in-out",
       }}
       bodyStyle={{ textAlign: "center" }}
     >
@@ -30,12 +32,12 @@ const Contacts = ({ icon, title, description, buttonText, buttonLink }) => {
           marginBottom: 8,
         }}
       >
-        <div style={{ fontSize: 24, color: "#3fb950", marginRight: 8 }}>
+        <div style={{ fontSize: 24, color: "#ffffff", marginRight: 8 }}>
           {icon}
         </div>
         <div>
-          <div style={{ fontWeight: 600, color: "white" }}>{title}</div>
-          <div style={{ fontSize: 13, color: "#8b949e" }}>{description}</div>
+          <div style={{ fontWeight: 600, color: "#ffffff" }}>{title}</div>
+          <div style={{ fontSize: 13, color: "#cccccc" }}>{description}</div>
         </div>
       </div>
       <Button
@@ -43,11 +45,13 @@ const Contacts = ({ icon, title, description, buttonText, buttonLink }) => {
         block
         href={buttonLink}
         style={{
-          marginTop: 8,
-          backgroundColor: "white",
-          borderRadius: 6,
-          border: "none",
+          marginTop: 12,
+          backgroundColor: "#333333",
+          color: "#ffffff",
+          borderRadius: 8,
+          border: "1px solid #444444",
           fontWeight: 500,
+          transition: "all 200ms ease-in-out",
         }}
       >
         {buttonText}

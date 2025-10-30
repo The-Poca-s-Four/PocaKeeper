@@ -6,9 +6,16 @@ import ChannelCardInfo from "../docs/ChannelCardInfo.js";
 import AvatarCard from "../components/Avatar.jsx";
 import AvatarInfo from "../docs/AvatarInfo.js";
 import Contacts from "../components/Contacts.jsx";
+import ImageGallery from "../components/ImageGallery.jsx";
 import { Space } from "antd";
 import { GithubOutlined, MailOutlined } from "@ant-design/icons";
 import MainSection from "../components/MainSection.jsx";
+
+// Import ảnh từ assets
+import indexImg from "../assets/index.png";
+import loginImg from "../assets/login.png";
+import signupImg from "../assets/signup.png";
+import homepageImg from "../assets/homepage.png";
 
 function createCard(cardTerm) {
   return (
@@ -45,6 +52,38 @@ function createAvatarCard(avatar) {
 }
 
 function Body() {
+  // Array chứa thông tin ảnh - dùng placeholder nếu chưa có ảnh thật
+  const appScreenshots = [
+    {
+      src:
+        indexImg ||
+        "https://via.placeholder.com/300x200/2ec2b0/ffffff?text=Index+Page",
+      alt: "App Index Screen",
+      title: "Index Page",
+    },
+    {
+      src:
+        loginImg ||
+        "https://via.placeholder.com/300x200/2ec2b0/ffffff?text=Login+Page",
+      alt: "App Login Screen",
+      title: "Login Page",
+    },
+    {
+      src:
+        signupImg ||
+        "https://via.placeholder.com/300x200/2ec2b0/ffffff?text=SignUp+Page",
+      alt: "App Sign Up Screen",
+      title: "Sign Up Page",
+    },
+    {
+      src:
+        homepageImg ||
+        "https://via.placeholder.com/300x200/2ec2b0/ffffff?text=Home+Page",
+      alt: "App Home Screen",
+      title: "Home Page",
+    },
+  ];
+
   return (
     <div>
       {/* <div>
@@ -55,6 +94,14 @@ function Body() {
       <div>
         <MainSection heading="" subheading="">
           {cardInfo.slice(0, 2).map(createCard)}
+        </MainSection>
+
+        {/* App Screenshots Gallery */}
+        <MainSection
+          heading="App Screenshots"
+          subheading="Preview of our user interface and key features"
+        >
+          <ImageGallery images={appScreenshots} />
         </MainSection>
 
         <MainSection
@@ -120,7 +167,7 @@ function Body() {
             title="GitHub Repository"
             description="View our open-source code"
             buttonText="Visit GitHub"
-            buttonLink="https://github.com"
+            buttonLink="https://github.com/The-Poca-s-Four/PocaKeeper"
           />
 
           <Contacts
